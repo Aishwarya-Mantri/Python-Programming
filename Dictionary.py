@@ -1,3 +1,4 @@
+#Program to print all possible 4 letters English words from given Letters
 import enchant
 d=enchant.Dict("en_UK") #create dictionary for UK English
 from itertools import permutations
