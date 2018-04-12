@@ -10,6 +10,7 @@ def nearest_sq(n):
   smin=n1**2
   smax=(n1+1)**2
   return smin if n-smin < smax-n else smax
+  #return round(n ** 0.5) ** 2
 
 print(nearest_sq(111))
   
